@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-all-in-one
+  description: A collection of all Backstage example entities
+spec:
+  targets:
+    - ./all.yaml
+    - https://github.com/c4rth/backstage-demo-config/blob/main/catalog/acme-corp.yaml
+    - https://github.com/c4rth/backstage-demo-docs/blob/main/techdocs/catalog-info.yaml
+    - https://github.com/c4rth/backstage-demo-templates/blob/main/templates.yaml
